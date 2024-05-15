@@ -1,0 +1,57 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
+
+.expo-details-mobile {
+  height: 100%;
+  .expo-details-bg {
+    width: 100%;
+    position: static;
+  }
+
+  .expo-mobile-image {
+    position: relative;
+  }
+
+  .expo-overlay {
+    width: 100%;
+  }
+
+  .expo-bottom {
+    flex-wrap: wrap;
+  }
+  .expo-guide-wrapper {
+    margin-bottom: 40px;
+  }
+}
+
+.expo-header-mobile {
+  position: absolute;
+  top: 0;
+}
+
+.expo-icon-mobile {
+  padding-top: 0;
+}
+
+.expo-mobile-content {
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+}
+
+.expo-control {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  .icon-button {
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  span {
+    display: block;
+    max-width: 250px;
+    margin-bottom: 10px;
+  }
+
+}
