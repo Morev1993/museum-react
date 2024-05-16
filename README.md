@@ -1,5 +1,9 @@
 ## Интерактивный музей с экспозициями
 
+![Демо][preview]
+
+Стек: Javascript, React, Scss, react-youtube, react-tooltip
+
 **Основной юзер-кейс**
 
 1. Пользователь заходит на сайт → пользователь видит рендер музея сверху и метки-экспозиции на ней.
@@ -10,9 +14,15 @@
 6. Пользователь может переключать экспозиции либо переходом на карту, либо через нижний сайд-бар, в котором есть превью всех экспозиций.
 7. Пользователь может запустить 1 из 3х игр. Юзер кликает по иконке игры - игра запускается в новом окне. Есть кнопка возврата в музей.
 
+Должна быть реализована вёрстка под планшеты и мобильные телефоны
+
 Требования (пояснительная записка) https://kitaev.notion.site/adf124718e7e42b6987d4fde670a539a
 
 Демо https://expo-museum-new-new.netlify.app/
+
+## TODO:
+
+- [x] Переписать на Next.js, Typescript, Scss, Redux-toolkit, Redux RTK, Prettier, Eslint (в разработке)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -82,3 +92,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+[preview]: /src/assets/images/museum-preview.png
