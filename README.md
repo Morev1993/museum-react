@@ -10,6 +10,8 @@
 6. Пользователь может переключать экспозиции либо переходом на карту, либо через нижний сайд-бар, в котором есть превью всех экспозиций.
 7. Пользователь может запустить 1 из 3х игр. Юзер кликает по иконке игры - игра запускается в новом окне. Есть кнопка возврата в музей.
 
+Требования (пояснительная записка) https://kitaev.notion.site/adf124718e7e42b6987d4fde670a539a
+
 Демо https://expo-museum-new-new.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
